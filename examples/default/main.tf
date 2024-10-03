@@ -6,9 +6,5 @@ module "default_resource_group" {
   name       = local.name
   managed_by = local.managed_by
 
-  #resource lock
-  resource_lock_enabled = true
-  lock_level            = "CanNotDelete"
-
   tags = local.tags
 }

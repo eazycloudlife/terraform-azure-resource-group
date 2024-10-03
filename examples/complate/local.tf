@@ -1,5 +1,5 @@
 locals {
-  name       = "ezcl-resource-group-${basename(path.cwd)}"
+  name       = "ezcl-${basename(path.cwd)}"
   location   = "East US"
   managed_by = "eazycloudlife@gmail.com"
 
